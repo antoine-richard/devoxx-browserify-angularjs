@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="gastronomyApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gastronomy App</title>
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+</head>
+<body class="bg">
+
+  <div class="container">
+    <h1>Gastronomie !</h1>
+    <div ng-view></div>
+  </div>
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="src/app.js"></script>
+  <script src="src/routes.js"></script>
+  <script src="src/dishes/module.js"></script>
+  <script src="src/dishes/controllers/list.js"></script>
+  <script src="src/dishes/data/dishes.js"></script>
+  
+</body>
+</html>
