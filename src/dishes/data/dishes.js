@@ -2,7 +2,7 @@
 
   angular
   .module('dishes')
-  .factory('dishes', function() {
+  .factory('dishesData', function() {
 
     var dishes = [
       { name: 'Galette-saucisse', type: 'Plat principal', image: 'images/1.jpg' },

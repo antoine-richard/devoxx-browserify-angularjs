@@ -2,9 +2,9 @@
 
   angular
   .module('dishes')
-  .controller('DishesListCtrl', function(dishes) {
+  .controller('DishesListCtrl', function(dishesData) {
 
-    this.dishes = dishes.list();
+    this.dishes = dishesData.list();
 
   });
 
