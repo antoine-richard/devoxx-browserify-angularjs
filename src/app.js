@@ -1,5 +1,8 @@
-(function() {
+var angular = require('angular');
 
-  angular.module('gastronomyApp', ['ngRoute', 'dishes']);
-
-}());
+angular.module('gastronomyApp', [
+  require('angular-route'), 
+  require('./dishes')
+])
+.config(require('./routes'))
+;
